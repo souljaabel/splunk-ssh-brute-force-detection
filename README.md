@@ -40,3 +40,20 @@ Authentication failure investigation
 Event aggregation and time-based analysis
 Preliminary incident assessment
 Security documentation
+
+Investigation Evidence
+1. Failed SSH Login Summary
+2. Daily Failed Login Activity
+3. Raw SSH Log Evidence
+Incident Report
+Read the full investigation report
+
+Detection Query
+View the Splunk SPL query
+
+Disclaimer: This project uses Splunk tutorial/sample data for educational purposes. It does not represent a confirmed real-world security incident.
+
+
+
+
+

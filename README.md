@@ -15,9 +15,9 @@ Observed dates: October 15–22, 2026
 Peak daily count: 223 failures on October 19, 2026
 Observed usernames: Included root, administrator, daemon, and guest
 Successful authentication check: No matching Accepted password events were returned for this IP in the searched data.
+
 Detection Query
 The following SPL query extracts usernames and source IP addresses, then summarizes the failed authentication events associated with the investigated IP.
-
 index=* sourcetype=secure-2 "Failed password"
 | rex field=_raw "Failed password for (?:invalid user )?(?<username>\S+) from (?<src_ip>\d{1,3}(?:\.\d{1,3}){3})"
 | search src_ip="87.194.216.51"

@@ -39,7 +39,7 @@ Investigation Evidence
 2. Daily Failed Login Activity
 3. Raw SSH Log Evidence
 Incident Report
-Read the full investigation report
+[Read the full investigation report](report/incident_report.md)
 
 Environment and Limitations
 This is a learning project using Splunk’s supplied tutorial dataset, not a live security incident. Findings are limited to the events and searches examined.

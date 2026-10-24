@@ -1,4 +1,4 @@
-]Splunk SSH Brute-Force Detection
+Splunk SSH Brute-Force Detection
 Project Overview
 This project demonstrates a basic SOC analyst investigation using Splunk Search Processing Language (SPL). I analyzed sample SSH authentication logs to identify repeated failed login attempts, investigate targeted usernames, and check for evidence of successful authentication from a suspicious source.
 

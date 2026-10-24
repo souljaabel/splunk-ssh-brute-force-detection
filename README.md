@@ -22,7 +22,7 @@ index=* sourcetype=secure-2 "Failed password"
 | rex field=_raw "Failed password for (?:invalid user )?(?<username>\S+) from (?<src_ip>\d{1,3}(?:\.\d{1,3}){3})"
 | search src_ip="87.194.216.51"
 | stats count AS failed_attempts dc(username) AS unique_usernames values(username) AS usernames by src_ip
-[View the complete SPL query](queries/sshbrute_force.spl)
+[View the complete SPL query](queries/sshh_brute_force.spl)
 
 Analysis
 The repeated failed SSH authentication attempts and use of multiple usernames are consistent with possible automated password guessing or account discovery.
